@@ -11,9 +11,9 @@ public class GetMemberResponse {
     private Long memberId;
     private String name;
     private String email;
-    private List<MemberGroup> groupList;
+    private List<MemberGroupResponse> groupList;
 
-    public GetMemberResponse(Long id, List<MemberGroup> groupList, String name, String email) {
+    public GetMemberResponse(Long id, List<MemberGroupResponse> groupList, String name, String email) {
         this.memberId=id;
         this.name=name;
         this.email=email;
